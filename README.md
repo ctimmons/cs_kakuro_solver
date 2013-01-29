@@ -38,7 +38,7 @@ Algorithm Overview
 
 A Kakuro puzzle is a two dimensional grid of cells.
 
-![Annotated Kakuro Puzzle](https://raw.github.com/ctimmons/cs_kakuro_solver/master/images/kakuro.png)
+![Annotated Kakuro Puzzle](https://github.com/ctimmons/cs_kakuro_solver/raw/master/images/kakuro.png)
 
 (original image taken from [Wikipedia](http://en.wikipedia.org/wiki/File:Kakuro_black_box.svg).)
 
