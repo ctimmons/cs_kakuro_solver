@@ -1,8 +1,6 @@
 ﻿using System;
 using System.IO;
 
-using Utilities.Core;
-
 namespace KakuroSolver
 {
   public class Program

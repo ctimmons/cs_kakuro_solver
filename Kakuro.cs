@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-
-using Utilities.Core;
+using System.Text;
 
 namespace KakuroSolver
 {
@@ -394,6 +393,14 @@ namespace KakuroSolver
       }
 
       return result.TrimEnd();
+    }
+  }
+
+  public static class StringUtils
+  {
+    public static String Repeat(this String value, Int32 count)
+    {
+      return (count < 1) ? "" : (new StringBuilder(value.Length * count)).Insert(0, value, count).ToString();
     }
   }
 }
