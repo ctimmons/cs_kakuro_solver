@@ -13,7 +13,7 @@ In the past, I'd tried to write a Sudoku solver, but the naive algorithm I imple
 Build Dependencies
 ------------------
 
-This project depends on my [Utilities.Core](https://github.com/ctimmons/cs_utilities) library.  Download cs_utilities and include Utilities.Core.csproj as an existing project in KakuroSolver.sln.
+None.
 
 Running the Program
 -------------------
@@ -71,4 +71,4 @@ Room for Improvement
 
 As currently written, this C# app is single-threaded and uses mutable state (i.e. the ValueCell.Value property is modified in the SolveEx() method's recursive case.)
 
-One possible future improvement would be to use multiple threads, each with their own copy of the puzzle, and modifying SolveEx() so it can start its search with an arbitrary value cell.  That way there'd be no need for locking or transactions.  Something to ponder...
+One possible future improvement would be to use multiple threads, each with their own copy of the puzzle, and modifying SolveEx() so it can start its search with an arbitrary value cell.  That way there'd be no need for locking or transactions.
